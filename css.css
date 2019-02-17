@@ -1,8 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
+
 .hore {
 	position: fixed;
-	height: 10%;
+	height: 100px;
 	width: 100%;
 	opacity: 0.7;
 	background-color: white;
@@ -31,6 +32,11 @@ p {
 	margin-bottom: 5%;
 }
 
-.body {
+body {
+	background-image: url("small_logo.png");
+	background-repeat: no-repeat;
+	background-position: left 100px;
+	background-attachment: fixed;
+	background-size: 15%;
 	
 }
