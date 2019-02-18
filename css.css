@@ -8,7 +8,8 @@
 	opacity: 0.7;
 	background-color: white;
 	top: 0;
-	
+	z-index: 2;
+	text-align: center;
 }
 
 
@@ -16,6 +17,7 @@
 	font-size: 40pt;
 	color: midnightblue;
 	margin-top: 10%;
+	
 	
 }
 
@@ -26,17 +28,59 @@
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 }
 
+.black {
+	height: 400px;
+	line-height: normal;
+	width: 100%;
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background-color: darkred;
+	color: white;
+	position: relative;
+	padding-top:100px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.white {
+	height: 400px;
+	line-height: normal;
+	width: 100%;
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background-color: whitesmoke;
+	color: black;
+	position: relative;
+	padding-top: 100px;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+}
+
 p {
 	margin-left: 15%;
 	margin-right: 15%;
 	margin-bottom: 5%;
+	margin-top: 0px;
+}
+.logo {
+	top: 0px;
+	left: 40px;
+	position: absolute;
+	max-width: 100%;
+	max-height: 100%;
+	z-index: 1;
+	opacity: 1.2;
 }
 
-body {
-	background-image: url("small_logo.png");
-	background-repeat: no-repeat;
-	background-position: left 100px;
-	background-attachment: fixed;
-	background-size: 15%;
-	
+span{	
+ 	display: inline-block;
+ 	vertical-align: middle;
+ 	line-height: normal;
+}
+
+html,body {
+	background-color: whitesmoke;
+	margin: 0px;
+	padding: 0px;
 }
