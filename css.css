@@ -12,6 +12,17 @@
 	text-align: center;
 }
 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+li {
+	float: left;
+	width: 60px;
+}
 
 .header1 {
 	font-size: 40pt;
@@ -83,4 +94,19 @@ html,body {
 	background-color: whitesmoke;
 	margin: 0px;
 	padding: 0px;
+}
+
+
+#castle {
+	background-image: url(hrad.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#park {
+	background-image: url(snow.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
