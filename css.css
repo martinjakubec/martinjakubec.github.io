@@ -1,6 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -18,19 +17,14 @@ li {
 a {
 	display: block;
 	margin: 0;
-	color: black;
+	color: white;
 	text-decoration: none;
-	background-color: dimgray;
+	background-color: black;
 	
 }
 
-a:active {
-	background-color: black;
-	color: white;
-}
-
 a:hover {
-	background-color: black;
+	background-color: #1E1E1E;
 	color: white;
 }
 
@@ -51,12 +45,24 @@ body, html {
 	padding: 0;
 }
 
+.topimg {
+	position: relative;
+	top: 0;
+	height: 300px;
+	text-align: center;
+	width: 100%;
+	background-image: url(img/macka.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
 .hore {
-	position: fixed;
+	position: sticky;
 	height: 100px;
 	width: 100%;
 	opacity: 0.9;
-	background-color: dimgray;
+	background-color: black;
 	top: 0;
 	z-index: 2;
 	text-align: center;
@@ -66,7 +72,7 @@ body, html {
 
 .main {
 	margin-top: 15%;
-	height: 30%;
+	height: 10%;
 	width: 100%;
 	text-align: center;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
@@ -107,25 +113,31 @@ body, html {
 	max-height: 100%;
 	z-index: 1;
 	opacity: 1.2;
+	filter: invert(100%);
 }
 
 #castle {
-	background-image: url(hrad.png);
+	background-image: url(img/hrad.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 #park {
-	background-image: url(snow.png);
+	background-image: url(img/snow.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 #top {
-	background-image: url(small_logo_transparent.png);
+	background-image: url(img/small_logo_transparent.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+#lang {
+	position: absolute;
+	right: 30px;
 }
