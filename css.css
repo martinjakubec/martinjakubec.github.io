@@ -1,20 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
-ul {
+.hore ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	display: inline-block;
 }
 
-li {
+.hore li {
 	float: left;
 	line-height: 100px;
 	vertical-align: middle;
 	background-color: darkgray;
 }
 
-a {
+.hore a {
 	display: block;
 	margin: 0;
 	color: white;
@@ -23,12 +23,12 @@ a {
 	
 }
 
-a:hover {
+.hore a:hover {
 	background-color: #1E1E1E;
 	color: white;
 }
 
-li a {
+.hore li a {
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -47,8 +47,8 @@ html {
 
 body {
 	margin: 0;
-	padding-left: 15%;
-	padding-right: 15%;
+	font-family: "Open Sans", sans-serif;	
+
 } 
 
 .topimg {
@@ -60,7 +60,13 @@ body {
 	background-image: url(img/macka.jpg);
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
+	font-size: 40pt;
+	font-variant: small-caps;
+	text-align: right;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+
 }
 
 .hore {
@@ -126,6 +132,8 @@ body {
 	filter: invert(100%);
 }
 
+
+
 #castle {
 	background-image: url(img/hrad.jpg);
 	background-size: cover;
@@ -143,11 +151,55 @@ body {
 #top {
 	background-image: url(img/small_logo_transparent.png);
 	background-size: contain;
-	background-position: center;
+	background-position: bottom;
 	background-repeat: no-repeat;
+	margin-top: 20px;
+	height: 400px;
+	line-height: normal;
+	width: 100%;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20pt;
+	color: black;
+	position: relative;
+	padding-top: 100px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 #lang {
 	position: absolute;
 	right: 30px;
+}
+
+#name {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+#studies {
+	padding-top: 20px;
+	
+}
+
+#cvright {
+	float: left;
+	width: 70%;
+	text-align: left;
+	font-size: 15pt;
+	overflow: hidden;
+}
+
+#cvleft {
+	float: left;
+	width: 30%;
+	text-align: right;
+	font-size: 15pt;
+	overflow: hidden;
+}
+
+#studies li {
+	list-style-type: none;
+	margin-bottom: 20px;
 }
