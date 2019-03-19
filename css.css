@@ -1,5 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
 .hore ul {
 	list-style-type: none;
 	margin: 0;
@@ -72,7 +77,6 @@ body {
 	position: sticky;
 	height: 100px;
 	width: 100%;
-	opacity: 0.9;
 	background-color: black;
 	top: 0;
 	z-index: 2;
@@ -208,10 +212,9 @@ td {
 }
 
 
-#projects3D {
+.projects3D {
 	width: 100%;
-	height: 800px;
-	background-image:url(img/snow.jpg);
+	height: 900px;
 	background-size: cover;
 	margin-top: 0;
 	background-repeat: no-repeat;
@@ -219,6 +222,12 @@ td {
 	color: white;
 	text-shadow: 1px 1px black;
 	padding-top: 30px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#park {
+	background-image:url(img/snow.jpg);	
 }
 
 a.pagelink {
@@ -228,4 +237,19 @@ a.pagelink {
 
 a:hover.pagelink {
 	color: powderblue;
+}
+
+#hrad {
+	background-image:url(img/hrad.jpg);
+}
+
+#island {
+	background-image: url(img/island.jpg);
+}
+
+#photo {
+	background-image: url(img/pano.jpg);
+	color: black;
+	text-shadow: 1px 1px grey;
+	height: 700px;
 }
