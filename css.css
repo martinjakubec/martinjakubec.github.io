@@ -214,7 +214,7 @@ td {
 
 .projects3D {
 	width: 100%;
-	height: 900px;
+	height: 1100px;
 	background-size: cover;
 	margin-top: 0;
 	background-repeat: no-repeat;
@@ -251,5 +251,4 @@ a:hover.pagelink {
 	background-image: url(img/pano.jpg);
 	color: black;
 	text-shadow: 1px 1px grey;
-	height: 700px;
 }
