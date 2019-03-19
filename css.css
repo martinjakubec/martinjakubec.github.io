@@ -55,7 +55,6 @@ body {
 	position: relative;
 	top: 0;
 	height: 300px;
-	text-align: center;
 	width: 100%;
 	background-image: url(img/macka.jpg);
 	background-size: cover;
@@ -79,7 +78,7 @@ body {
 	z-index: 2;
 	text-align: center;
 	font-family: "Open Sans", sans-serif;
-
+	margin-bottom: 0;
 }
 
 
@@ -178,28 +177,55 @@ body {
 	right: 10px;
 }
 
-#studies {
-	padding-top: 20px;
-	
+table {
+	margin-top: 20px;
 }
 
-#cvright {
-	float: left;
-	width: 70%;
-	text-align: left;
-	font-size: 15pt;
-	overflow: hidden;
-}
-
-#cvleft {
-	float: left;
-	width: 30%;
+th {
 	text-align: right;
-	font-size: 15pt;
-	overflow: hidden;
+	padding-right: 20px;
+	font-size: 20pt;
 }
 
-#studies li {
-	list-style-type: none;
-	margin-bottom: 20px;
+td {
+	font-size: 15pt;
+	padding-bottom: 20px;
+}
+
+.tableleftcolumn {
+	text-align: right;
+	padding-right: 20px;
+	vertical-align: top;
+	width: 45%;
+	padding-left: 15%;
+}
+
+.tablerightcolumn {
+	text-align: left;
+	padding-left: 20px;
+	width: 55%;
+	padding-right: 15%;
+}
+
+
+#projects3D {
+	width: 100%;
+	height: 800px;
+	background-image:url(img/snow.jpg);
+	background-size: cover;
+	margin-top: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	text-shadow: 1px 1px black;
+	padding-top: 30px;
+}
+
+a.pagelink {
+	color: inherit;
+	text-decoration: underline;
+}
+
+a:hover.pagelink {
+	color: powderblue;
 }
