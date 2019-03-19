@@ -224,6 +224,7 @@ td {
 	padding-top: 30px;
 	overflow-y: scroll;
 	overflow-x: hidden;
+	font-size: 20px;
 }
 
 #park {
@@ -251,4 +252,13 @@ a:hover.pagelink {
 	background-image: url(img/pano.jpg);
 	color: black;
 	text-shadow: 1px 1px grey;
+}
+
+#franta {	
+	border: 0px;
+	border-top: 10px;
+	border-style: solid;
+	border-color: black;
+	background-image: url(img/franta.jpg);
+	background-position: right;
 }
