@@ -92,7 +92,7 @@ body {
 	width: 100%;
 	text-align: center;
 	font-family: "Open Sans", sans-serif;
-	font-size: 15pt;
+	font-size: 15px;
 }
 
 .black {
@@ -101,10 +101,9 @@ body {
 	width: 100%;
 	text-align: center;
 	font-family: "Open Sans", sans-serif;
-	font-size: 15px;
 	color: white;
 	position: relative;
-	padding-top:100px;
+	padding-top: 100px;
 	margin-left: 0px;
 	margin-right: 0px;
 }
@@ -115,7 +114,6 @@ body {
 	width: 100%;
 	text-align: center;
 	font-family: "Open Sans", sans-serif;
-	font-size: 15px;
 	color: black;
 	position: relative;
 	padding-top: 100px;
